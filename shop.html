@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="shortcut icon" href="./img/Fav-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/shop.css">
+</head>
+
+<body>
+  <header>
+    <!-- === Top Header Starts === -->
+    <div class="topHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
+            <span class="lh-0 locationIcon"><iconify-icon icon="fluent:location-28-regular" width="20"
+                height="20"></iconify-icon></span>
+            <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+          </div>
+          <div class="col-lg-6 text-end topHeaderRight d-none d-lg-block">
+            <ul>
+              <li>
+                <select>
+                  <option value="En">Eng</option>
+                  <option value="Bn">Bn</option>
+                </select>
+              </li>
+              <li>
+                <select>
+                  <option value="USD">USD</option>
+                  <option value="BDT">BDT</option>
+                </select>
+              </li>
+              <li>
+                |
+              </li>
+              <li>
+                <a href="#">Sign In / Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- === Top Header Ends === -->
+    <!-- === Middle Header Starts === -->
+    <div class="middleHeader">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-3 col-8 headerLogo order-1">
+            <a href="#" class="img-fluid"><img src="./img/Logo .png" alt="LOGO"></a>
+          </div>
+          <div class="col-lg-6 headerSearch order-3 order-lg-2 my-3 my-lg-0">
+            <form action="" class="d-flex">
+              <div class="searchInput">
+                <input type="text" placeholder="Search">
+                <span class="lh-0 searchIcon"><iconify-icon icon="mingcute:search-line" width="20"
+                    height="21"></iconify-icon></span>
+              </div>
+              <button type="submit">Search</button>
+            </form>
+          </div>
+          <div class="col-lg-3 col-4 quickLinks order-2 order-lg-3">
+            <ul class="d-flex justify-content-end">
+              <li class="lh-0 d-none d-lg-block">
+                <a href="#" class="lh-0"><iconify-icon icon="solar:heart-linear" width="32"
+                    height="32"></iconify-icon></a>
+              </li>
+              <li class="lh-0 d-none d-lg-block align-items-center">
+                <span class="divider">|</span>
+              </li>
+              <li class="lh-0 d-none d-lg-block">
+                <div class="d-flex gap-2">
+                  <div class="cartIcon">
+                    <a href="#" class="lh-0"><iconify-icon icon="gala:bag" width="32" height="32"></iconify-icon></a>
+                    <span class="cardCounter">2</span>
+                  </div>
+                  <div class="cartText">
+                    <p>Shopping cart:</p>
+                    <span>$57.00</span>
+                  </div>
+                </div>
+              </li>
+              <li class="lh-0 d-lg-none">
+                <a href="#offcanvasExample" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample">
+                  <iconify-icon icon="line-md:close-to-menu-alt-transition" width="30" height="30"></iconify-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- === Middle Header Ends === -->
+    <!-- === Bottom Header Start === -->
+    <div class="bottomHeader d-none d-lg-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-9">
+            <ul class="d-flex align-items-center">
+              <li>
+                <a href="#" class="categoryMenu">
+                  <iconify-icon icon="mynaui:menu" width="24" height="24"></iconify-icon>
+                  Categories
+                  <iconify-icon icon="ep:arrow-down" width="18" height="18"></iconify-icon>
+                </a>
+                <ul class="categorySubmenu">
+                  <li><a class="dropdown-item" href="#">Food</a></li>
+                  <li><a class="dropdown-item" href="#">Baby Food & Care</a></li>
+                  <li><a class="dropdown-item" href="#">Home Cleaning</a></li>
+                  <li><a class="dropdown-item" href="#">Beauty & Health</a></li>
+                  <li><a class="dropdown-item" href="#">Fashion & Lifestyle</a></li>
+                  <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
+                  <li><a class="dropdown-item" href="#">Stationeries</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <a href="tel:2195550114" class="d-flex align-items-center contactNum">
+              <iconify-icon icon="line-md:phone-call" width="25" height="25"></iconify-icon>
+              (219) 555-0114
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- === Bottom Header Ends === -->
+  </header>
+  <main>
+    <!-- *Breadcrumbs Start Here -->
+    <section id="Breadcrumbs">
+      <div class="container">
+        <ul>
+          <li class="d-flex align-items-center">
+            <a href="index.html" class="homeIcom">
+              <iconify-icon icon="fluent:home-16-regular" width="20" height="22"></iconify-icon>
+            </a>
+            <iconify-icon icon="formkit:right" width="15" height="15" style="color: #999"></iconify-icon>
+          </li>
+          <li class="d-flex align-items-center">
+            <a href="shop.html" class="active">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- *Breadcrumbs End Hear -->
+    <!-- *Shop Section Start Here -->
+    <section id="allProducts">
+      <div class="container">
+        <div class="row">
+          <div class="filter col-lg-3 d-lg-block d-none">
+            <div class="filterBtn">
+              <button type="button">Filter
+              </button>
+              <span>
+                <iconify-icon icon="rivet-icons:filter" width="20" height="20"></iconify-icon>
+              </span>
+            </div>
+            <!-- filterBtn end -->
+            <div class="categories">
+              <div class="row align-items-center categoreBtn">
+                <div class="col-6 radioParent"><a type="button">All Categories</a></div>
+                <div class="col-6 text-end">
+                  <iconify-icon icon="ep:arrow-down-bold"></iconify-icon>
+                </div>
+              </div>
+              <!-- categoreBtn end -->
+              <li class="shopCollapse">
+                <ul class="shopOpen active">
+                  <li class="d-flex align-items-center All">
+                    <input type="radio" id="All" name="Categories" checked>
+                    <label for="All">All(52)<span>(134)</span></label>
+                  </li>
+                  <li class="d-flex align-items-center freshFruit">
+                    <input type="radio" id="Fresh" name="Categories">
+                    <label for="Fresh">Fresh Fruit (25)<span>(134)</span></label>
+                  </li>
+                  <li class="d-flex align-items-center vegetable">
+                    <input type="radio" id="Vegetables" name="Categories">
+                    <label for="Vegetables">Vegetables<span>(150)</span></label>
+                  </li>
+                  <li class="d-flex align-items-center cooking">
+                    <input type="radio" id="Cooking" name="Categories">
+                    <label for="Cooking">Cooking<span>(54)</span></label>
+                  </li>
+                  <li class="d-flex align-items-center snacking">
+                    <input type="radio" id="Snacks" name="Categories">
+                    <label for="Snacks">Snacks<span>(47)</span></label>
+                  </li>
+                  <li class="d-flex align-items-center beverage">
+                    <input type="radio" id="Beverages" name="Categories">
+                    <label for="Beverages">Beverages<span>(43)</span></label>
+                  </li>
+                  <li class="d-flex align-items-center health">
+                    <input type="radio" id="Beauty" name="Categories">
+                    <label for="Beauty">Beauty & Health<span>(38)</span></label>
+                  </li>
+                  <li class="d-flex align-items-center bread" class="d-flex align-items-center">
+                    <input type="radio" id="Bread" name="Categories">
+                    <label for="Bread">Bread & Bakery<span>(15)</span></label>
+                  </li>
+                </ul>
+              </li>
+            </div>
+          </div>
+          <div class="product col-lg-9">
+            <!-- *category Start Here -->
+            <section id="category">
+              <div class="row">
+                <div class="sortBox col-lg-6 col-12">
+                  <div class="row align-items-center">
+                    <div class="col-lg-12 col-8">
+                      <span>Sort by :</span>
+                      <select>
+                        <option value="1">Latest</option>
+                      </select>
+                    </div>
+                    <div class="filterMdBtn text-end d-inline d-lg-none d-block col-4">
+                      <button type="button">
+                        <span>
+                          <iconify-icon icon="rivet-icons:filter" width="20" height="20"></iconify-icon>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <h6 class="text-lg-end text-start mt-2 mt-lg-0"><span>52</span>Results Found</h6>
+                </div>
+              </div>
+            </section>
+            <!-- ProductCardBox start -->
+            <section id="ProductCardBox">
+              <div class="row justify-content-center">
+
+                <div class="productCard  ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/mango.png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image.png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (1).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (2).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (3).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (4).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (5).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (6).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (3).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (1).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (2).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/Product Image (5).png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+                <div class="productCard  ">
+                  <div class="thumbnail">
+                    <a href="#"><img src="./img/mango.png" alt="Image 1" class="img-fluid"></a>
+                    <ul class="quickLinks">
+                      <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+                      <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+                    </ul>
+                  </div>
+                  <div class="content">
+                    <a href="#">Surjapur Mango</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class=""></span>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="fullStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    <iconify-icon class="halfStar" icon="material-symbols:star-rounded" width="18"
+                      height="18"></iconify-icon>
+                    </span>
+                    <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                        height="24"></iconify-icon></a>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
